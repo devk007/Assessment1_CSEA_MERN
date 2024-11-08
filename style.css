@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  background: url("pngtree-simple-and-fresh-series-light-blue-resume-background-blue-picture-image_1610943.jpg");
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+#resume-content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+#preview-photo {
+  margin: auto;
+  border-radius: 100%;
+}
